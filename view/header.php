@@ -10,7 +10,7 @@
             <li>
                 <a class='dropdown-button' href='#' data-activates='dropdown1'>Trabalhos</a>
             </li>
-            <li class="li1">Contato</li>
+            <li href="#footer" class="li1">Contato</li>
         </ul>
 
         <ul id='dropdown1' class='dropdown-content'>
