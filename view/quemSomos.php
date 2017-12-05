@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col l1 sides">
+    <div class="col l1 ">
         <p></p>
     </div>
     <div class="  quemSomos " id="quemSomos">

@@ -26,12 +26,22 @@
         
             include("view/footer.php");
         ?>
+        
+        <!--button class="btn-floating right buttonFixed">
+            <i class="material-icons">email</i>
+        </button-->
+
     <script src="Materialize/js/jquery-3.2.1.js"></script>
     <script src="Materialize/js/materialize.js"></script>
     <script src="js/functions.js"></script>
     <script>
         $('.dropdown-button').dropdown('open');
         $('.dropdown-button').dropdown('close');
+    </script>
+    <script>
+    $(document).ready(function(){
+    $('.modal').modal();
+    });
     </script>
     </body>
 </html>
