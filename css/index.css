@@ -205,7 +205,7 @@ input {
     font-family: "Raleway";
 }
 
-.btn {
+.btn1 {
     color: black;
     background-color: white;
     font-size: 15pt;
@@ -221,6 +221,24 @@ input {
     transition: 2s;
 }
 
+.btnMail {
+    position: fixed;
+    background-color: black;
+    color: white;
+    margin-top: 10%!important;
+    right: 1;
+}
+
+.btnMail:hover {
+    background-color: gray;
+    color: black;
+}
+
+.mL {
+    top: 5%;
+    margin-left: 10%;
+}
+
 @media only screen and (max-width: 600px){
     
     li {
@@ -229,7 +247,7 @@ input {
         font-family: "Montserrat";
         margin-left: 4%;
     }
-    
+
     .logo {
         width: 80%;
         margin-top: 2%;
@@ -252,13 +270,20 @@ input {
         width: 80%;
     }
 
-    
     .firstChildLi{
         margin-left: 4%;
     }    
+
+    .btnMail {
+        position: fixed;
+        background-color: black!important;
+        color: gray!important;
+        margin-top: 20!important;
+    }
     
     .textoQuemSomos {
         font-family: "Raleway";
+        text-align: justify;
     }
     
     .divIcon {
@@ -270,7 +295,7 @@ input {
     .iconSocialF{
         margin-left: 15%;
         text-align: center;
-        width : 75%;
+        width : 85%;
         padding: 10px;
         border: 0.5px solid white;
         transition: 2s;
@@ -279,7 +304,7 @@ input {
     .iconSocialF:hover{
         margin-left: 15%;
         text-align: center;
-        width : 45%;
+        width : 90%;
         padding: 10px;
         border: 0.5px solid white;
         background-color: #4267B2;
@@ -289,7 +314,7 @@ input {
     .iconSocialI{
         margin-left: 15%;
         text-align: center;
-        width : 75%;
+        width : 85%;
         padding: 10px;
         border: 0.5px solid white;
         transition: 2s;
@@ -298,7 +323,7 @@ input {
     .iconSocialI:hover{
         margin-left: 15%;
         text-align: center;
-        width : 45%;
+        width : 90%;
         padding: 10px;
         border: 0.5px solid white;
         background-color: #D7246E;
@@ -308,7 +333,7 @@ input {
     .iconSocialY{
         margin-left: 15%;
         text-align: center;
-        width : 75%;
+        width : 85%;
         padding: 10px;
         border: 0.5px solid white;
         transition: 2s;
@@ -317,7 +342,7 @@ input {
     .iconSocialY:hover{
         margin-left: 15%;
         text-align: center;
-        width : 45%;
+        width : 90%;
         padding: 10px;
         border: 0.5px solid white;
         background-color: red;
@@ -328,8 +353,12 @@ input {
         width: 100%!important;
         margin: 0!important;
         padding: 0!important;
+        margin-bottom: 2%!important;
     }
-    
+
+    .text1 {
+        display: none;
+    }
 
 }
 
